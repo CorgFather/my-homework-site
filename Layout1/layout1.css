@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 49.5px;
+    border: 0.5px solid gray;
+    background: #D8D8D8;
+    clear: both;
+}
+
+/* 3-part upper-middle section, thinner */
+
+body section {
+    height: 74px;
+    border: 0.5px solid gray;
+    width: 33.33%;
+    background: #D8D8D8;
+    float: left;
+}
+
+/* 2-part lower-middle section, thicker */
+
+div > section {
+    height: 99px;
+    border: 0.5px solid gray;
+    width: 50%;
+    background: #D8D8D8;
+}
+
+div > footer {
+    height: 49.5px;
+    border: 0.5px solid gray;
+    background: #D8D8D8;
+    clear: both;
+}

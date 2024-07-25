@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    border: 0.5px solid black; 
+    background: #D8D8D8;
+}
+
+section {
+    height: 175px;
+    border: 0.5px solid black;
+    background: #D8D8D8;
+    width: 20%;
+    float: left;
+}
+
+div > section {
+    width: 40%;
+}
+
+div + div > section {
+    width: 20%;
+}
+
+footer {
+    height: 50px; 
+    border: 0.5px solid black;
+    background: #D8D8D8;
+    clear: both;
+}
+
